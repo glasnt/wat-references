@@ -3,6 +3,13 @@
 *References, puns, quips, and inspiration.*
 
 
+## Slides
+
+[RubyConf AU 2018](https://github.com/glasnt/talks/tree/gh-pages/2018_03_RubyConfAU/)
+
+[All Things Open 2018](https://github.com/glasnt/talks/tree/gh-pages/2018_10_AllThingsOpen.podium)
+	
+
 # ⚠️  WARNING ⚠️
 
 Are you watching this talk live? Is Katie currently up on stage explaining things to you?
@@ -66,7 +73,16 @@ https://www.safaribooksonline.com/library/view/you-dont-know/9781491905159/ch04.
 
 http://2ality.com/2012/01/object-plus-object.html
 
-https://www.ecma-international.org/ecma-262/#sec-addition-operator-plus
+### Addition Operator
+
+http://www.ecma-international.org/ecma-262/9.0/index.html#sec-addition-operator-plus
+
+https://tc39.github.io/ecma262/#prod-Block
+
+https://tc39.github.io/ecma262/#sec-unary-plus-operator
+
+https://twitter.com/littledan/status/1036991541154394115
+
 
 ## Interlude: Ducks
 
@@ -130,6 +146,12 @@ Default functionality.
 
 [Source](http://stackoverflow.com/a/2001861/124019)
 
+### CSS
+
+[Source](https://twitter.com/mxstbr/status/1038416725182697472)
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
+
 ### Perl
 
 Source: original research. [Explanation](http://stackoverflow.com/a/14046720/124019)
@@ -143,6 +165,10 @@ http://php.net/manual/en/language.operators.comparison.php#language.operators.co
 ### Powershell
 
 Source: original research. [Documentation](http://fuckpowershell.tumblr.com/post/31777924330/fuck-using-standard-operands)
+
+https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-6
+
+https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_redirection?view=powershell-6
 
 ## Images
 
