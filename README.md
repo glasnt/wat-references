@@ -146,6 +146,10 @@ Default functionality.
 
 [Source](http://stackoverflow.com/a/2001861/124019)
 
+### C++
+
+Original research. [Explanation](https://en.wikipedia.org/wiki/Digraphs_and_trigraphs#C)
+
 ### CSS
 
 [Source](https://twitter.com/mxstbr/status/1038416725182697472)
@@ -166,9 +170,9 @@ http://php.net/manual/en/language.operators.comparison.php#language.operators.co
 
 Source: original research. [Documentation](http://fuckpowershell.tumblr.com/post/31777924330/fuck-using-standard-operands)
 
-https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-6
+Now in the official powershell documentation! ✨
 
-https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_redirection?view=powershell-6
+https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_redirection?view=powershell-6#potential-confusion-with-comparison-operators
 
 ## Images
 
