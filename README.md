@@ -8,6 +8,8 @@
 [RubyConf AU 2018](https://github.com/glasnt/talks/tree/gh-pages/2018_03_RubyConfAU/)
 
 [All Things Open 2018](https://github.com/glasnt/talks/tree/gh-pages/2018_10_AllThingsOpen.podium)
+
+[PyCascades 2019](https://github.com/glasnt/talks/tree/gh-pages/2019_02_PyCascades.podium)
 	
 
 # ⚠️  WARNING ⚠️
@@ -133,40 +135,57 @@ due to two's-complement integer overflow
 
 https://golang.org/ref/spec#Integer_overflow
 
-### Scala
+## Scala
 
 Default functionality. 
 
 
-### Python
+## Python
+
+### a is b
 
 [Source](www.youtube.com/watch?v=sH4XF6pKKmk)
+
+### '8' < 8
+
+[Originally learnt from Trey Hunner](https://github.com/treyhunner/python-oddities/blob/master/index.html#L579)
+
+https://docs.python.org/2/library/stdtypes.html#comparisons
+
+"Objects of different types [..] never compare equal; such objects are ordered consistently but arbitrarily (so that sorting a heterogeneous array yields a consistent result)."
+
+"CPython implementation detail: Objects of different types except numbers are ordered by their type names; objects of the same types that don’t support proper comparison are ordered by their address."
+
+https://github.com/python/cpython/blob/v2.7.14rc1/Objects/object.c#L785
+
+[Related writeup by Luke Lee on Pluralsight](https://www.pluralsight.com/guides/comparing-unrelated-types)
+
 
 ### Java
 
 [Source](http://stackoverflow.com/a/2001861/124019)
 
-### C++
+## C++
 
 Original research. [Explanation](https://en.wikipedia.org/wiki/Digraphs_and_trigraphs#C)
 
-### CSS
+## CSS
 
 [Source](https://twitter.com/mxstbr/status/1038416725182697472)
 
 https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
 
-### Perl
+## Perl
 
 Source: original research. [Explanation](http://stackoverflow.com/a/14046720/124019)
 
-### PHP
+## PHP
 
 [Source](http://phpsadness.com/sad/30)
 
 http://php.net/manual/en/language.operators.comparison.php#language.operators.comparison.ternary
 
-### Powershell
+## Powershell
 
 Source: original research. [Documentation](http://fuckpowershell.tumblr.com/post/31777924330/fuck-using-standard-operands)
 
