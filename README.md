@@ -7,9 +7,9 @@
 
 [RubyConf AU 2018](https://github.com/glasnt/talks/tree/gh-pages/2018_03_RubyConfAU/)
 
-[All Things Open 2018](https://github.com/glasnt/talks/tree/gh-pages/2018_10_AllThingsOpen.podium)
+[All Things Open 2018](https://glasnt.com/talks/2018_10_AllThingsOpen.podium/index.html#1) ([Source](https://github.com/glasnt/talks/tree/gh-pages/2018_10_AllThingsOpen.podium))
 
-[PyCascades 2019](https://github.com/glasnt/talks/tree/gh-pages/2019_02_PyCascades.podium)
+[PyCascades 2019](https://glasnt.com/talks/2019_02_PyCascades.podium/#1) ([Source](https://github.com/glasnt/talks/tree/gh-pages/2019_02_PyCascades.podium))
 	
 
 # ⚠️  WARNING ⚠️
