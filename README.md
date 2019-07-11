@@ -38,63 +38,6 @@ Good!
 
 PS and FYI: you may have gotten to this page from a number of different iterations of this talk. This repo serves as a catch-all for all talk variants, and may reference things that weren't included in the version of the talk you watched/attended. 
 
-## JavaScript
-
-## Interlude: Ducks
-
-https://www.destroyallsoftware.com/talks/wat
-
-## Ruby
-
-https://ruby-doc.org/core-2.5.0/doc/syntax/precedence_rdoc.html
-
-https://whatthefuckruby.tumblr.com/post/70164947137/irb-not-true-false-true-irb-not-true
-
-
-## Haskell
-
-http://adamesterline.com/haskell/2015/01/03/Fibonacci-in-Haskell
-
-## Bash
-
-https://ryanstutorials.net/bash-scripting-tutorial/bash-arithmetic.php
-
-## Elixir
-
-http://www.cursingthedarkness.com/2015/10/the-definitive-all-dancing-all-complete.html
-
-
-## Go
-
-### `:=`
-
-https://golang.org/ref/spec#Short_variable_declarations
-
-### `-128/-1=-128`
-
-https://twitter.com/pasiphae_goals/status/923821863222079488
-
-https://twitter.com/rozaliev/status/923919964720988166
-
-https://golang.org/ref/spec#Operators
-
-> The one exception to this rule is that if the dividend x is the most negative
-value for the int type of x, the quotient q = x / -1 is equal to x (and r = 0)
-due to two's-complement integer overflow
-
-https://golang.org/ref/spec#Integer_overflow
-
-## Scala
-
-Default functionality. 
-
-### Java
-
-[Source](http://stackoverflow.com/a/2001861/124019)
-
-## C++
-
-Original research. [Explanation](https://en.wikipedia.org/wiki/Digraphs_and_trigraphs#C)
 
 ## CSS
 
