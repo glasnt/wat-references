@@ -1,19 +1,27 @@
 LANGUAGE=$1
 IMAGE=wat-example-$LANGUAGE
 
-DOCKER=$(docker --version)
-EXIT_CODE=$?
-if [ $EXIT_CODE -ne 0 ]
-then
-    echo "❌ You don't appear to have docker installed. https://www.docker.com/get-started"
 
-    # nicely exit 
+nice_exit(){
+    echo "❌ $1"
     if [ "${BASH_SOURCE[0]}" != "${0}" ]
     then
         return # if source filename.sh
     else
         exit 1 # if ./filename.sh
     fi
+}
+
+if [ ! -d $LANGUAGE ]
+then
+    nice_exit "No example for language '$LANGUAGE'"
+fi
+
+DOCKER=$(docker --version)
+EXIT_CODE=$?
+if [ $EXIT_CODE -ne 0 ]
+then
+    nice_exit "❌ You don't appear to have docker installed. https://www.docker.com/get-started"
 fi
 
 echo "▶️  Start up a $LANGUAGE terminal"
