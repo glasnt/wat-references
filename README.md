@@ -40,52 +40,6 @@ PS and FYI: you may have gotten to this page from a number of different iteratio
 
 ## JavaScript
 
-### Implicit Type Coercion
-
-```
-> 4 - "2"
-2
-```
-
-https://www.safaribooksonline.com/library/view/you-dont-know/9781491905159/ch04.html#implicitly-strings----numbers
-
-> The `-` operator is defined only for numeric subtraction, so [4 - "2"] forces ["2"]'2 value to be coerced to a number
-
-```
-> 4 + "2"
-42
-```
-
-https://www.safaribooksonline.com/library/view/you-dont-know/9781491905159/ch04.html#implicitly-strings----numbers
-
-> According to the ES5 spec, section 11.6.1, the + algorithm (when an object
-> value is an operand) will concatenate if either operand is either already a
-> string ...
-
-
-```
-> 1 == "1"
-True
-```
-
-https://www.safaribooksonline.com/library/view/you-dont-know/9781491905159/ch04.html#loose-equals-vs-strict-equals
-
-> == allows coercion in the equality comparison and === disallows coercion.
-
-
-http://2ality.com/2012/01/object-plus-object.html
-
-### Addition Operator
-
-http://www.ecma-international.org/ecma-262/9.0/index.html#sec-addition-operator-plus
-
-https://tc39.github.io/ecma262/#prod-Block
-
-https://tc39.github.io/ecma262/#sec-unary-plus-operator
-
-https://twitter.com/littledan/status/1036991541154394115
-
-
 ## Interlude: Ducks
 
 https://www.destroyallsoftware.com/talks/wat
