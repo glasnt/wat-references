@@ -28,7 +28,10 @@ Enjoy the talk. Read this later.
 
 Is the talk over yet?
 
+👀
+
 Are you sure?
+
 
 Good!
 
@@ -38,41 +41,42 @@ Good!
 
 PS and FYI: you may have gotten to this page from a number of different iterations of this talk. This repo serves as a catch-all for all talk variants, and may reference things that weren't included in the version of the talk you watched/attended. 
 
+## All examples are now interactively testable!
 
-## CSS
+By the power of Docker!*
 
-[Source](https://twitter.com/mxstbr/status/1038416725182697472)
+<small>* you need to have Docker installed</small>
 
-https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
+For any of the languages in this directory: 
 
-## Perl
+```shell
+$ ./launch LANGAUGE
+```
 
-Source: original research. [Explanation](http://stackoverflow.com/a/14046720/124019)
+For example, what to check out the Ruby example? 
 
-## PHP
+```shell
+$ ./launch ruby
+```
 
-[Source](http://phpsadness.com/sad/30)
+This will run the Dockerfile in the ruby directory, and land you in a shell where you can work with Ruby!
 
-http://php.net/manual/en/language.operators.comparison.php#language.operators.comparison.ternary
+Most examples are interactive terminals, but some compile and execute sample code. 
 
-## Powershell
-
-Source: original research. [Documentation](http://fuckpowershell.tumblr.com/post/31777924330/fuck-using-standard-operands)
-
-Now in the official powershell documentation! ✨
-
-https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_redirection?view=powershell-6#potential-confusion-with-comparison-operators
-
-## Images
-
-'wat' duck, [wat](https://www.destroyallsoftware.com/talks/wat), Gary Bernhardt
-
-'wat' duck, Sydney, [hofman](https://imgur.com/gallery/gqilq)
-
-https://www.florentijnhofman.nl/
+All language folder READMEs also include information about how to use homebrew on macOS to run the same examples, and also additional resources, references, links, and explanations as to all the wats. 
 
 
-# Further Reading
+## References
+
+[Original 'wat' talk by Gary Bernhardt
+](https://www.destroyallsoftware.com/talks/wat)
+
+['wat' duck, Sydney, hofman](https://imgur.com/gallery/gqilq)
+
+[Florentijn Hofman](https://www.florentijnhofman.nl/), original artist behind the 'wat' duck (click and drag left/right through his studio website for the photo)
+
+
+## Further Reading
 
 [Contempt Culture](https://blog.aurynn.com/2015/12/16-contempt-culture), auyrnn shaw
 
