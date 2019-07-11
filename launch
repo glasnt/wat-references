@@ -1,0 +1,22 @@
+LANGUAGE=$1
+IMAGE=wat-example-$LANGUAGE
+
+DOCKER=$(docker --version)
+EXIT_CODE=$?
+if [ $EXIT_CODE -ne 0 ]
+then
+    echo "❌ You don't appear to have docker installed. https://www.docker.com/get-started"
+
+    # nicely exit 
+    if [ "${BASH_SOURCE[0]}" != "${0}" ]
+    then
+        return # if source filename.sh
+    else
+        exit 1 # if ./filename.sh
+    fi
+fi
+
+echo "▶️  Start up a $LANGUAGE terminal"
+
+docker build -t $IMAGE $LANGUAGE 
+docker run --rm -it $IMAGE
