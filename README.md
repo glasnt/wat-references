@@ -53,7 +53,7 @@ For any of the languages in this directory:
 $ ./launch LANGAUGE
 ```
 
-For example, what to check out the Ruby example? 
+For example, want to check out the Ruby example? 
 
 ```shell
 $ ./launch ruby
@@ -64,6 +64,8 @@ This will run the Dockerfile in the ruby directory, and land you in a shell wher
 Most examples are interactive terminals, but some compile and execute sample code. 
 
 All language folder READMEs also include information about how to use homebrew on macOS to run the same examples, and also additional resources, references, links, and explanations as to all the wats. 
+
+I will be trying my hardest to keep this repository up to date, but really all being said, getting to see the talk in person is fair more entertaining than reading a repo :)
 
 
 ## References
