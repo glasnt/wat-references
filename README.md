@@ -2,15 +2,9 @@
 
 *References, puns, quips, and inspiration.*
 
-
 ## Slides
 
-[RubyConf AU 2018](https://github.com/glasnt/talks/tree/gh-pages/2018_03_RubyConfAU/)
-
-[All Things Open 2018](https://glasnt.com/talks/2018_10_AllThingsOpen.podium/index.html#1) ([Source](https://github.com/glasnt/talks/tree/gh-pages/2018_10_AllThingsOpen.podium))
-
-[PyCascades 2019](https://glasnt.com/talks/2019_02_PyCascades.podium/#1) ([Source](https://github.com/glasnt/talks/tree/gh-pages/2019_02_PyCascades.podium))
-	
+See [glasnt.com/talks](https://glasnt.com/talks) for the version you saw. 
 
 # ⚠️  WARNING ⚠️
 
@@ -68,7 +62,7 @@ All language folder READMEs also include information about how to use homebrew o
 I will be trying my hardest to keep this repository up to date, but really all being said, getting to see the talk in person is fair more entertaining than reading a repo :)
 
 
-## References
+## Global References
 
 [Original 'wat' talk by Gary Bernhardt
 ](https://www.destroyallsoftware.com/talks/wat)
@@ -77,12 +71,14 @@ I will be trying my hardest to keep this repository up to date, but really all b
 
 [Florentijn Hofman](https://www.florentijnhofman.nl/), original artist behind the 'wat' duck (click and drag left/right through his studio website for the photo)
 
+[Drew Noakes](https://stackoverflow.com/a/20983251/124019), via StackOverflow for the `tput` reference implementation
 
 ## Further Reading
 
 [Contempt Culture](https://blog.aurynn.com/2015/12/16-contempt-culture), auyrnn shaw
 
 [Why I love Legacy DevOps](https://recompilermag.com/issues/issue-4/why-i-love-legacy-devops/), Katie McLaughlin, [The Recompiler, Issue 4](https://recompilermag.com/issues/issue-4/)
+
 
 
 </details>

@@ -1,0 +1,26 @@
+#!/bin/bash
+
+langf=$(tput bold && tput setaf 5)
+langn=elixir
+langv=$(iex --version)
+
+g=$(tput setaf 5)
+b=$(tput bold)
+reset=$(tput sgr0)
+
+cat << EndOfIntro
+
+${g}glasnt${reset}'s wat-reference for ${langf}${langn}${reset}
+
+We're using: 
+${langv}
+
+Try these examples: 
+
+Enum.map(1..5, fn(x) -> x*x end)
+
+Enum.map(6..10, fn(x) -> x*x end)
+
+See the ${b}${langn}/README.md${reset} for references, and more information. 
+🔥
+EndOfIntro

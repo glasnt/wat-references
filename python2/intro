@@ -1,0 +1,24 @@
+#!/bin/bash 
+
+langf=$(tput bold && tput setaf 3)
+langn=python2
+langv=`$(python --version) 2>&1`
+
+g=$(tput setaf 5)
+b=$(tput bold)
+reset=$(tput sgr0)
+
+cat << EndOfIntro
+
+${g}glasnt${reset}'s wat-reference for ${langf}${langn}${reset}
+
+We're using: 
+${langv}
+
+Try this example:
+
+4 < [4] < '4'
+
+See the ${b}${langn}/README.md${reset} for references, and more information. 
+🐍
+EndOfIntro

@@ -1,0 +1,20 @@
+langf=$(tput bold && tput setaf 4)
+langn=cpp
+langv=$(gcc --version | grep 'gcc')
+
+g=$(tput setaf 5)
+b=$(tput bold)
+reset=$(tput sgr0)
+
+cat << EndOfIntro
+
+${g}glasnt${reset}'s wat-reference for ${langf}${langn}${reset}
+
+We're using: 
+  ${langv}
+
+The examples ${b}aren't interactive${reset}, so they will be executed directly.
+
+See the ${b}${langn}/README.md${reset} for references, and more information. 
+🌊
+EndOfIntro

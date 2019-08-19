@@ -1,2 +1,3 @@
 FROM debian:buster-slim
-CMD bash
+COPY intro .
+CMD ./intro && bash

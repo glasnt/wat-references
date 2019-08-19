@@ -1,0 +1,25 @@
+#!/bin/bash
+
+langf=$(tput bold && tput setaf 5)
+langn=php
+langv=$(php --version | grep cli)
+
+g=$(tput setaf 5)
+b=$(tput bold)
+reset=$(tput sgr0)
+
+cat << EndOfIntro
+
+${g}glasnt${reset}'s wat-reference for ${langf}${langn}${reset}
+
+We're using: 
+${langv}
+
+Try these examples: 
+
+echo (FALSE ? "one" : TRUE ? "two" : "three");
+echo (TRUE ? "one" : TRUE ? "two" : "three");
+
+See the ${b}${langn}/README.md${reset} for references, and more information. 
+🐘
+EndOfIntro

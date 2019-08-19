@@ -1,4 +1,5 @@
 FROM golang:1.12.7-stretch
-COPY example.go .
-COPY bad_example.go .
-RUN go run bad_example.go && go run example.go
+ENV GO111MODULE off
+RUN go get -u github.com/motemen/gore/cmd/gore
+COPY intro .
+CMD ./intro && gore

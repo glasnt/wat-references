@@ -1,0 +1,25 @@
+#!bin/bash
+
+langf=$(tput bold && tput setaf 1)
+langn=ruby
+langv=$(ruby --version)
+
+g=$(tput setaf 5)
+b=$(tput bold)
+reset=$(tput sgr0)
+
+cat << EndOfIntro
+${g}glasnt${reset}'s wat-reference for ${langf}${langn}${reset}
+
+We're using: 
+  ${langv}
+
+Try these examples: 
+
+  not true && false
+ 
+  not true and false
+
+See the ${b}${langn}/README.md${reset} for references, and more information. 
+💎
+EndOfIntro

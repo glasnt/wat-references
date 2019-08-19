@@ -1,2 +1,3 @@
-FROM hseeberger/scala-sbt:8u212_1.2.8_2.13.0
-CMD /root/scala-2.12.2/bin/scala
+FROM hseeberger/scala-sbt:8u212_1.2.8_2.12.9
+COPY intro .
+CMD ./intro && /home/sbtuser/scala-2.12.9/bin/scala

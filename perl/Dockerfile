@@ -1,2 +1,3 @@
 FROM perl:5-slim
-CMD perl -de1
+COPY intro .
+CMD ./intro && perl -de1

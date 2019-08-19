@@ -1,0 +1,28 @@
+#!/bin/bash
+
+langf=$(tput bold && tput setaf 1)
+langn=java
+langv=$(java --version)
+
+g=$(tput setaf 5)
+b=$(tput bold)
+reset=$(tput sgr0)
+
+cat << EndOfIntro
+
+${g}glasnt${reset}'s wat-reference for ${langf}${langn}${reset}
+
+We're using: 
+${langv}
+
+Try these examples: 
+
+Integer a = 128
+Integer b = 128
+a <= b
+a >= b
+a == b
+
+See the ${b}${langn}/README.md${reset} for references, and more information. 
+☕️
+EndOfIntro

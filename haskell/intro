@@ -1,0 +1,26 @@
+#!/bin/bash
+
+langf=$(tput bold && tput setaf 5)
+langn="haskell"
+langv=$(ghc --version)
+
+g=$(tput setaf 5)
+b=$(tput bold)
+reset=$(tput sgr0)
+
+cat << EndOfIntro
+
+${g}glasnt${reset}'s wat-reference for ${langf}${langn}${reset}
+
+We're using: 
+  ${langv}
+
+Try these examples: 
+
+  let b = 2 + 2 where 2 + 2 = 5
+  b
+
+
+See the ${b}${langn}/README.md${reset} for references, and more information. 
+${langf}${b}λ${reset}
+EndOfIntro

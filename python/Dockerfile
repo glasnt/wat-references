@@ -1,2 +1,3 @@
 FROM python:3.7-slim-stretch
-CMD python
+COPY intro .
+CMD ./intro && python

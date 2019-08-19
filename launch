@@ -12,6 +12,10 @@ nice_exit(){
     fi
 }
 
+if [ -z "$LANGUAGE" ]; then
+    nice_exit "Please specify a language"
+fi
+
 if [ ! -d $LANGUAGE ]
 then
     nice_exit "No example for language '$LANGUAGE'"
@@ -24,7 +28,7 @@ then
     nice_exit "❌ You don't appear to have docker installed. https://www.docker.com/get-started"
 fi
 
-echo "▶️  Start up a $LANGUAGE terminal"
+echo "▶️  Start up a $LANGUAGE environment"
 
 docker build -t $IMAGE $LANGUAGE 
 docker run --rm -it $IMAGE

@@ -1,0 +1,25 @@
+#!/bin/bash
+langf=$(tput bold && tput setaf 4)
+langn=powershell
+langv=$(pwsh --version)
+
+g=$(tput setaf 5)
+b=$(tput bold)
+reset=$(tput sgr0)
+
+cat << EndOfIntro
+
+${g}glasnt${reset}'s wat-reference for ${langf}${langn}${reset}
+
+We're using: 
+${langv}
+
+Try these examples: 
+
+if (36 > 42) { "true" } else { "false" }
+
+if (36 < 42) { "true" } else { "false" }
+
+See the ${b}${langn}/README.md${reset} for references, and more information. 
+🔌🐚
+EndOfIntro

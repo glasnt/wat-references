@@ -1,2 +1,3 @@
 FROM ruby:2.6.3-slim-stretch
-CMD irb
+COPY intro /tmp/
+CMD /tmp/intro && irb

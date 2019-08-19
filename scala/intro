@@ -1,0 +1,24 @@
+#!/bin/bash
+
+langf=$(tput bold && tput setaf 1)
+langn=scala
+langv=$(/home/sbtuser/scala-2.12.9/bin/scala -version)
+
+g=$(tput setaf 5)
+b=$(tput bold)
+reset=$(tput sgr0)
+
+cat << EndOfIntro
+
+${g}glasnt${reset}'s wat-reference for ${langf}${langn}${reset}
+
+We're using: 
+${langv}
+
+Try this example:
+
+println({} + "")
+
+See the ${b}${langn}/README.md${reset} for references, and more information. 
+⚖️
+EndOfIntro

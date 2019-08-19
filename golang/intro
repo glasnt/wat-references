@@ -1,0 +1,27 @@
+#!/bin/bash
+
+langf=$(tput bold && tput setaf 6)
+langn=golang
+langv=$(go version)
+
+g=$(tput setaf 5)
+b=$(tput bold)
+reset=$(tput sgr0)
+
+cat << EndOfIntro
+
+${g}glasnt${reset}'s wat-reference for ${langf}${langn}${reset}
+
+We're using: 
+${langv}
+
+
+Try this example: 
+
+:import fmt
+var a int8 = -128;
+fmt.Println(a/-1);
+
+See the ${b}${langn}/README.md${reset} for references, and more information. 
+🦝
+EndOfIntro

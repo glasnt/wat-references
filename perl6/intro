@@ -1,0 +1,24 @@
+#!/bin/bash
+
+langf=$(tput bold && tput setaf 2)
+langn=perl6
+langv=$(perl6 --version) # | grep "This is" | cut -d" " -f3-)
+
+g=$(tput setaf 5)
+b=$(tput bold)
+reset=$(tput sgr0)
+
+cat << EndOfIntro
+
+${g}glasnt${reset}'s wat-reference for ${langf}${langn}${reset}
+
+We're using: 
+${langv}
+
+Try this example: 
+
+Ⅸ + ¾
+
+See the ${b}${langn}/README.md${reset} for references, and more information. 
+🐪
+EndOfIntro
