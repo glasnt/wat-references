@@ -59,8 +59,18 @@ Most examples are interactive terminals, but some compile and execute sample cod
 
 All language folder READMEs also include information about how to use homebrew on macOS to run the same examples, and also additional resources, references, links, and explanations as to all the wats. 
 
+They also run a 'motd': a little bash script that shows: 
+ * the language version you're running
+ * a reminder of where the README is
+ * one or more of the examples covered. 
+
+This runs *inside* docker, so it can live-introspect the environment. 
+
 I will be trying my hardest to keep this repository up to date, but really all being said, getting to see the talk in person is fair more entertaining than reading a repo :)
 
+## References
+
+See each example. 
 
 ## Global References
 
@@ -82,3 +92,5 @@ I will be trying my hardest to keep this repository up to date, but really all b
 
 
 </details>
+
+✨
