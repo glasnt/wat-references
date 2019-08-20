@@ -13,15 +13,13 @@ cat << EndOfIntro
 ${g}glasnt${reset}'s wat-reference for ${langf}${langn}${reset}
 
 We're using: 
-  ${langv}
+${langv}
 
 Try these examples: 
 
-  4 + 2
-
-  \$(4 + 2)
-
-  \$((4 + 2))
+echo 4 + 2
+echo \$(4 + 2)
+echo \$((4 + 2))
 
 See the ${b}${langn}/README.md${reset} for references, and more information. 
 🥊

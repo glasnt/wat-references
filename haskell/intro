@@ -13,12 +13,12 @@ cat << EndOfIntro
 ${g}glasnt${reset}'s wat-reference for ${langf}${langn}${reset}
 
 We're using: 
-  ${langv}
+${langv}
 
 Try these examples: 
 
-  let b = 2 + 2 where 2 + 2 = 5
-  b
+let b = 2 + 2 where 2 + 2 = 5
+b
 
 
 See the ${b}${langn}/README.md${reset} for references, and more information. 

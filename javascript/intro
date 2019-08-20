@@ -18,11 +18,8 @@ ${langv}
 Try these examples: 
 
 [] + []
-
 [] + {}
-
 {} + []
-
 {} + {}
 
 See the ${b}${langn}/README.md${reset} for references, and more information. 

@@ -12,13 +12,13 @@ cat << EndOfIntro
 ${g}glasnt${reset}'s wat-reference for ${langf}${langn}${reset}
 
 We're using: 
-  ${langv}
+${langv}
 
 Try these examples: 
 
-  not true && false
- 
-  not true and false
+not true && false
+
+not true and false
 
 See the ${b}${langn}/README.md${reset} for references, and more information. 
 💎
