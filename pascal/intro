@@ -1,0 +1,32 @@
+#!/bin/bash
+
+langf=$(tput bold && tput setaf 5)
+langn=pascal
+langv=$((fpc -version 2>&1) | grep version | cut -d' ' -f2-)
+
+g=$(tput setaf 5)
+b=$(tput bold)
+reset=$(tput sgr0)
+
+example=/tmp/example.pas
+
+cat << EndOfIntro
+
+${g}glasnt${reset}'s wat-reference for ${langf}${langn}${reset}
+
+We're using: 
+${langv}
+
+The examples ${b}aren't interactive${reset}, so they will be executed directly.
+
+The code, ${example} is below:
+
+EndOfIntro
+
+cat ${example}
+
+cat << EndOfExtra
+
+See the ${b}${langn}/README.md${reset} for references, and more information. 
+🐆
+EndOfExtra
