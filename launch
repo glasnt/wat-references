@@ -20,7 +20,7 @@ if [ -z "$LANGUAGE" ]; then
     nice_exit "Please specify a language"
 fi
 
-if [ ! -d $LANGUAGE ]
+if [ ! -d references/$LANGUAGE ]
 then
     nice_exit "No example for language '$LANGUAGE'"
 fi
@@ -34,5 +34,5 @@ fi
 
 echo "▶️  Start up a $LANGUAGE environment"
 
-docker build -t $IMAGE $LANGUAGE 
+docker build -t $IMAGE references/$LANGUAGE 
 docker run --rm -it $IMAGE
