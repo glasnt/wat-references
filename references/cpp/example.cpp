@@ -1,4 +1,4 @@
 #include <cstdio>
 int main() {
-    printf("wat??!\n");
+    printf("wat??!\n"); 
 }
