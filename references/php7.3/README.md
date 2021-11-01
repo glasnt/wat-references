@@ -25,3 +25,14 @@ php -a
 
 [php.net documentation](http://php.net/manual/en/language.operators.comparison.php#language.operators.comparison.ternary)
 
+**Note**: This was changed in PHP 8.0
+
+# String to Number Comparison
+
+[php.net](https://www.php.net/manual/en/migration80.incompatible.php#migration80.incompatible.core.string-number-comparision)
+
+```php
+php> if (0 == "foo") { echo "true"; } else { echo "false";}
+true
+```
+**Note**: This was changed in PHP 8.0
