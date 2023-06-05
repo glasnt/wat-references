@@ -13,9 +13,10 @@
 
 ### macOS
 
+JShell comes with JDK 9+. After installing Java:
+
 ```
-brew install javarepl
-javarepl
+jshell
 ```
 
 
