@@ -34,7 +34,15 @@ False
 >>> a is b
 True
 ```
-[Amy Hanlon "Investigating Python Wats", PyCon US 2015](www.youtube.com/watch?v=sH4XF6pKKmk)
+
+[Amy Hanlon "Investigating Python Wats", PyCon US 2015](https://www.youtube.com/watch?v=sH4XF6pKKmk)
+
+https://github.com/python/cpython/blob/main/Include/internal/pycore_global_objects.h#L44C7-L44C72
+
+```
+PyLongObject small_ints[_PY_NSMALLNEGINTS + _PY_NSMALLPOSINTS];
+```
+
 
 Equality is not Identity
 
