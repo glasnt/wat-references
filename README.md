@@ -74,12 +74,15 @@ See each example.
 
 ## Global References
 
-[Original 'wat' talk by Gary Bernhardt
-](https://www.destroyallsoftware.com/talks/wat)
+[Original 'wat' talk by Gary Bernhardt](https://www.destroyallsoftware.com/talks/wat)
+
+[Rubber Duck (sculpture)](https://en.wikipedia.org/wiki/Rubber_Duck_(sculpture))
 
 ['wat' duck, Sydney, hofman](https://imgur.com/gallery/gqilq)
 
 [Florentijn Hofman](https://www.florentijnhofman.nl/), original artist behind the 'wat' duck (click and drag left/right through his studio website for the photo)
+
+[Paramatta Park photo](https://en.wikipedia.org/wiki/Rubber_Duck_(sculpture)#/media/File:Rubber_Duck_in_Parramatta_Park.jpg)
 
 [Drew Noakes](https://stackoverflow.com/a/20983251/124019), via StackOverflow for the `tput` reference implementation
 
