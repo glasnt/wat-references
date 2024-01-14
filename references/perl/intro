@@ -17,7 +17,7 @@ ${langv}
 
 Try this example: 
 
-if ("a" == "b") { print "true" } else { print "false" }
+print "match" if "a" == "b"
 
 See the ${b}${langn}/README.md${reset} for references, and more information. 
 🐪

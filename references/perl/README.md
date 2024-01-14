@@ -21,3 +21,6 @@ perl -de1
 # Numeric and string equality operands
 
 [StackOverflow explanation](https://stackoverflow.com/questions/14046669/string-compare-in-perl-with-eq-vs/14046720#14046720)
+
+
+https://perldoc.perl.org/perlop#Equality-Operators 
