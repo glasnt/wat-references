@@ -22,6 +22,10 @@ php -a
 
 **Note:** "Nested ternaries now require explicit parentheses." as of PHP 8. See [PHP 8.0 Migration Guide](https://www.php.net/manual/en/migration80.incompatible.php)
 
+https://github.com/php/php-src/pull/4017/files
+
+https://wiki.php.net/rfc/ternary_associativity
+
 # String to Number Comparison
 
 [php.net](https://www.php.net/manual/en/migration80.incompatible.php#migration80.incompatible.core.string-number-comparision)
