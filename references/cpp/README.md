@@ -24,4 +24,8 @@ gcc example.cpp -o example -trigraphs
 
 # Trigraphs
 
-[Explanation, wikipedia](https://en.wikipedia.org/wiki/Digraphs_and_trigraphs#C):w
+[Explanation, wikipedia](https://en.wikipedia.org/wiki/Digraphs_and_trigraphs#C)
+
+https://github.com/cplusplus/draft
+
+https://www.open-std.org/jtc1/sc22/wg21/docs/standards

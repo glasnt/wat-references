@@ -21,4 +21,6 @@ ghci
 
 # Basically, functional programming
 
-[Fibonacci in Haskell](http://adamesterline.com/haskell/2015/01/03/Fibonacci-in-Haskell)
+[Fibonacci in Haskell](https://web.archive.org/web/20170317114735/http://adamesterline.com/haskell/2015/01/03/Fibonacci-in-Haskell)
+
+https://wiki.haskell.org/Declaration_vs._expression_style

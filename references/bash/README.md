@@ -21,6 +21,8 @@ bash
 
 [How bash handles arithmetic](https://ryanstutorials.net/bash-scripting-tutorial/bash-arithmetic.php)
 
+https://www.gnu.org/software/bash/manual/html_node/Arithmetic-Expansion.html
+
 # and just for fun...
 
 

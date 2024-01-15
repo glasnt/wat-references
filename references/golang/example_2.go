@@ -1,8 +1,14 @@
 package main
 
 func main() {
-    var a = 4;
-    var b = 2;
-    var a = 2;
-    print(a + b);
+
+	a := 1
+	b := 1
+	a, b := 2, 2
+
+	var c = 3
+	var d = 3
+	c, d = 4, 4
+
+	print(a, b, c, d)
 }
