@@ -25,3 +25,16 @@ irb
 
 [More information, tumblr](https://whatthefuckruby.tumblr.com/post/70164947137/irb-not-true-false-true-irb-not-true)
 
+
+# Implicit return
+
+```ruby
+def mymethod
+    a = "apple" 
+    b = "banana" # last value touched is returned. 
+end
+
+b = mymethod
+puts b
+```
+https://franzejr.github.io/best-ruby/idiomatic_ruby/implicit_return.html

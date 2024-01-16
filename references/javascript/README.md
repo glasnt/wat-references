@@ -63,3 +63,28 @@ True
 [Explaination from Daniel Ehrenbeg, Twitter](https://twitter.com/littledan/status/1036991541154394115)
 
 
+# Object destructuring
+
+Specifically, variable name-based object destructuring (if you use object syntax and the value name matches the key in the object, you can get partial, declared assignment. )
+
+```
+const myobject = {
+    a: "apple",
+    b: "banana",
+    c: "cherry",
+    d: "dessert"
+};
+
+
+var { a } = myobject;
+console.log(a)  // "apple"
+
+var {b, c} = myobject
+console.log(b, c) // "banana cherry"
+
+var a = myobject
+console.log(a) // full object (needs braces to work)
+
+```
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#object_destructuring
