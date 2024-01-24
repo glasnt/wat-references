@@ -36,3 +36,11 @@ $
 ```
 
 Because everything is a file. - RKM 2019
+
+
+
+# misc links
+
+<https://jvns.ca/blog/2017/03/26/bash-quirks/>
+
+<https://blog.djy.io/10-bash-quirks-and-how-to-live-with-them/>

@@ -28,3 +28,5 @@ scala
 # Scala's IDE is different
 
 This example is default functionality, and an asset of Scala. 
+
+<https://github.com/puffnfresh/wat-collection>
