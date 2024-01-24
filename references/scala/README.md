@@ -30,3 +30,5 @@ scala
 This example is default functionality, and an asset of Scala. 
 
 <https://github.com/puffnfresh/wat-collection>
+
+<https://medium.buildo.io/anatomy-of-a-scala-quirk-b8c086b56423> 
