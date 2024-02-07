@@ -41,6 +41,13 @@ By the power of Docker!*
 
 <small>* you need to have Docker installed</small>
 
+Clone this repo: 
+
+```shell
+git clone https://github.com/glasnt/wat-references
+cd wat-references
+```
+
 For any of the languages in this directory: 
 
 ```shell
