@@ -38,3 +38,13 @@ b = mymethod
 puts b
 ```
 https://franzejr.github.io/best-ruby/idiomatic_ruby/implicit_return.html
+
+# flip floperator
+
+https://www.youtube.com/watch?v=BmWLhVMWC9I&t=783s
+
+https://perldoc.perl.org/perlop#Range-Operators
+
+https://chrisseaton.com/truffleruby/flip-flops/
+
+https://blog.saeloun.com/2020/01/06/ruby-2-7-revert-flip-flop-operator-deprecation/

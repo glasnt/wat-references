@@ -1,3 +1,3 @@
-FROM ruby:2.6.3-slim-stretch
+FROM ruby:2.5-slim-stretch
 COPY intro /tmp/
 CMD /tmp/intro && irb
