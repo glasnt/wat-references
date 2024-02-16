@@ -48,3 +48,5 @@ https://perldoc.perl.org/perlop#Range-Operators
 https://chrisseaton.com/truffleruby/flip-flops/
 
 https://blog.saeloun.com/2020/01/06/ruby-2-7-revert-flip-flop-operator-deprecation/
+
+https://ruby-doc.org/core-2.5.0/doc/syntax/control_expressions_rdoc.html#label-Flip-Flop
