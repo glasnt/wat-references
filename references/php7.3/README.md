@@ -36,3 +36,8 @@ php> if (0 == "foo") { echo "true"; } else { echo "false";}
 true
 ```
 **Note**: This was changed in PHP 8.0
+
+
+# PHP6 
+
+https://wiki.php.net/rfc/php6
